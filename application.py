@@ -40,4 +40,4 @@ def predict_datapoint():
         return render_template('home.html')
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0") #mapping to the local ip address 
+    app.run() #mapping to the local ip address 
